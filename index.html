@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HOME | Riverside Art Center</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="styles/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="shortcut icon" href="images/rsartcenter-logo.png" type="image/x-icon">
+
+    <!-- AOS Animation -->
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- NAVIGATION -->
+    <nav class="navbar navbar-expand-lg nav p-4 bg-dark">
+        <div class="container-fluid fs-8">
+            <a class="navbar-brand text-white" style="pointer-events: none;" href="#">
+                <!--img src="images/rac_logo.png" class="img-fluid" width="300"-->
+                <h5 id="company-name" class="fw-bold">RS Art Center</h5>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" data-bs-theme="dark" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <!-- HOME -->
+                    <li class="nav-item ms-3 text-center">
+                        <a href="index.html" id="active-menu" class="menu-hover nav-link text-white p-2"
+                            aria-current="page">Home</a>
+                    </li>
+
+                    <!-- About -->
+                    <li class="nav-item ms-3 text-center">
+                        <a id="howtouseNavItem" class="menu-hover nav-link text-white" aria-current="page"
+                            href="about.html">About</a>
+                    </li>
+
+                    <!-- Our Artists  -->
+                    <li class="nav-item ms-3 text-center">
+                        <a id="aboutNavItem" class="menu-hover nav-link text-white" aria-current="page"
+                            href="our-artist.html">Our
+                            Artists</a>
+                    </li>
+
+                    <!-- Classes/Events/Exhibits  -->
+                    <li class="nav-item ms-3 text-center">
+                        <a id="aboutNavItem" class="menu-hover nav-link text-white" aria-current="page"
+                            href="Events.html">Classes/Events/Exhibits</a>
+                    </li>
+
+                    <!-- Suppor Us/Membership  -->
+                    <li class="nav-item ms-3 text-center">
+                        <a id="aboutNavItem" class="menu-hover nav-link text-white" aria-current="page"
+                            href="support.html">Support
+                            Us/Membership</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+            <video class="img-fluid" autoplay loop muted width="100%" height="100%">
+                <source src="videos/file.mp4" type="video/mp4">
+            </video>
+            <div class="carousel-caption d-none d-md-block mb-5" data-aos="zoom-in-right" data-aos-duration="1500"
+                style="max-width: 90%; width: 50%;">
+                <h1 class="text-start fw-bolder">Riverside Arts Center</h1>
+                <p class="text-start lead fw-normal" style="font-size: 1.2em;">
+                    A community space that promotes visual arts. It offers art exhibitions, workshops, and classes for
+                    all ages and skill levels. The center aims to foster creativity and an appreciation for the arts in
+                    the local community and beyond.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- MISSION STATEMENT -->
+    <div id="mission_statement" class="container discover" data-aos="fade-down" data-aos-duration="1500"
+        style=" margin-bottom: 150px; margin-top: 100px;">
+        <div class="text-center rounded-3">
+            <h1 id="ms_title" class="fw-bold">MISSION STATEMENT</h1>
+            <p id="ms-desc" class="col-lg-8 mx-auto fs-5 lead">
+                The Riverside Art Center (RAC) is a non-profit arts corporation dedicated to the promotion of fine art.
+                RAC serves the greater Wapakoneta area, providing art related, educational opportunities through
+                classes, lectures and demonstrations. RAC also provides a venue for local artists to work, display and
+                sell their artwork. The RAC provides these opportunities for all persons, regardless of age, social
+                status, gender/gender orientation, politics, religious affiliation
+            </p>
+        </div>
+    </div>
+
+    <!-- ABOUT -->
+    <div class="container mt-5 mb-5">
+        <div class="row row-cols-1 row-cols-md-2 align-items-md-center p-3 mx-1 text-black">
+            <div class="col d-flex flex-column align-items-start gap-2">
+                <h1 id="rs-about" class="fw-bold">About</h1>
+                <p id="about" class="lead" data-aos="fade-right" data-aos-duration="1500">The Riverside Art Center is a
+                    regional anchor for creative practice and
+                    learning. Home
+                    to
+                    galleries, artist studios, and a school that showcases the art of our time, RAC serves as a hub for
+                    artistic exploration and community engagement. Since 1993, the Riverside Arts Center (RAC) has been
+                    providing Riverside, its surrounding suburbs and the city of Chicago with vital arts programming. We
+                    host exhibitions, arts classes, special events, and celebrations of creativity. Located in the heart
+                    of
+                    Historic Riverside, IL, the RAC includes the Freeark Gallery + Sculpture Garden, The FlexSpace, and
+                    a
+                    variety of studio spaces, including a renowned clay studio that has a full range of electric, raku
+                    and
+                    stoneware kilns.</p>
+            </div>
+
+            <!--div class="col">
+                <div class="row row-cols-1 row-cols-sm-2 g-4">
+                    <div class="col d-flex flex-column gap-2">
+                        <img src="images/artist_venue.webp" alt="">
+                    </div>
+
+                    <div class="col d-flex flex-column gap-2">
+                        <img src="images/ohio_arts.webp" alt="">
+                    </div>
+
+                    <div class="col d-flex flex-column gap-4">
+                        <img class="img-fluid" src="images/carousel_1.webp" alt="">
+                    </div>
+                </div>
+            </!--div-->
+            <!-- BANNER -->
+            <div class="container-lg my-5">
+                <div class="row">
+                    <div class="row row-cols-1 row-cols-sm-2 mb-3">
+                        <div class="col d-flex flex-column" data-aos="fade-left" data-aos-duration="1500">
+                            <img src="images/artist_venue.webp" class="img-fluid" alt="">
+                        </div>
+                        <div class="col d-flex flex-column" data-aos="fade-left" data-aos-duration="1500">
+                            <img src="images/ohio_arts.webp" class="img-fluid" alt="">
+                        </div>
+                    </div>
+                    <div class="col-12 mb-3 p-0" data-aos="fade-left" data-aos-duration="1500">
+                        <img src="images/carousel_1.webp" class="img-fluid" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- OFFERS -->
+    <section class="container mb-5">
+        <div class="container">
+            <h1 id="rs-offers" class="text-center mb-4 fw-bold">RIVERSIDE ARTS CENTER OFFERS</h1>
+            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-5">
+                <div class="col" data-aos="fade-right" data-aos-duration="1500">
+                    <div class="card shadow-sm rounded-3">
+                        <img src="images/img_carousel1.webp" class="rounded-top-3" alt="" style="height: 225px;">
+                        <div class="card-body">
+                            <h5 id="box" class="card-title fw-bold">Classes</h5>
+                            <p class="card-text lead">At the Riverside Art Center, you can explore classes like
+                                stenciling, journaling, stained glass, and canvas painting, offering diverse
+                                artistic experiences.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="Events.html" type="button" class="btn btn-sm btn-outline-secondary">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-up" data-aos-duration="1500">
+                    <div class="card shadow-sm rounded-3">
+                        <img src="images/img_carousel2.webp" class="rounded-top-3" alt="" style="height: 225px;">
+                        <div class="card-body">
+                            <h5 id="box" class="card-title fw-bold">Events</h5>
+                            <p class="card-text lead">Annual events held by the Riverside Art Center include
+                                benefit evenings, bourbon and cigar nights, fine art and wine tastings, and
+                                artist meet and greets.</p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="Events.html" type="button" class="btn btn-sm btn-outline-secondary">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col" data-aos="fade-left" data-aos-duration="1500">
+                    <div class="card shadow-sm rounded-3">
+                        <img src="images/img_carousel3.webp" class="rounded-top-3" alt="" style="height: 225px;">
+                        <div class="card-body">
+                            <h5 id="box" class="card-title fw-bold">Exhibits</h5>
+                            <p class="card-text lead">It showcases exhibits featuring local artists, center members, and
+                                students from nearby schools, fostering community engagement and artistic expression.
+                            </p>
+                            <div class="d-flex justify-content-between align-items-center">
+                                <div class="btn-group">
+                                    <a href="Events.html" type="button" class="btn btn-sm btn-outline-secondary">Read
+                                        More</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </div>
+
+    <!-- MEMBERSHIP -->
+    <div class="container discover text-white" data-aos="zoom-in-up" data-aos-duration="2000">
+        <div class="p-2 mt-5 text-center bg-light text-black rounded-3">
+            <img src="images/art.png" alt="">
+
+            <h1>Start Your Membership</h1>
+            <p class="col-lg-8 mx-auto fs-5 lead">
+                Become a member of the Riverside Arts Center (RAC) to enjoy discounts on classes and workshops, access
+                exclusive events, and participate in members-only exhibitions. Your membership also supports RAC’s
+                programs and activities. Join today to be part of a vibrant art community!
+            </p>
+            <div class="d-xl-inline-flex d-sm-flex d-flex justify-content-center gap-2 mb-5">
+                <a href="support.html" onclick="scrollToElement()"
+                    class="text-center fw-bold d-inline-flex align-items-center btn btn-outline-secondary btn-md mb-3 rounded-pill">
+                    Join Now
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        style="width:20px;height: 20px; margin-left:5px;">
+                        <path fill-rule="evenodd"
+                            d="M12 1.5a.75.75 0 01.75.75V4.5a.75.75 0 01-1.5 0V2.25A.75.75 0 0112 1.5zM5.636 4.136a.75.75 0 011.06 0l1.592 1.591a.75.75 0 01-1.061 1.06l-1.591-1.59a.75.75 0 010-1.061zm12.728 0a.75.75 0 010 1.06l-1.591 1.592a.75.75 0 01-1.06-1.061l1.59-1.591a.75.75 0 011.061 0zm-6.816 4.496a.75.75 0 01.82.311l5.228 7.917a.75.75 0 01-.777 1.148l-2.097-.43 1.045 3.9a.75.75 0 01-1.45.388l-1.044-3.899-1.601 1.42a.75.75 0 01-1.247-.606l.569-9.47a.75.75 0 01.554-.68zM3 10.5a.75.75 0 01.75-.75H6a.75.75 0 010 1.5H3.75A.75.75 0 013 10.5zm14.25 0a.75.75 0 01.75-.75h2.25a.75.75 0 010 1.5H18a.75.75 0 01-.75-.75zm-8.962 3.712a.75.75 0 010 1.061l-1.591 1.591a.75.75 0 11-1.061-1.06l1.591-1.592a.75.75 0 011.06 0z"
+                            clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-dark text-white pt-2 mt-5">
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Hours
+                        </h6>
+                        <p>
+                            Wednesday
+                        </p>
+                        <p>
+                            12:00 PM - 4:00 PM
+                        </p>
+                        <p>
+                            Saturday
+                        </p>
+                        <p>
+                            10:00 AM - 2:00 PM
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <p>
+                            <a href="about.html" class="text-reset">About</a>
+                        </p>
+                        <p>
+                            <a href="our-artist.html" class="text-reset">Our Artists</a>
+                        </p>
+                        <p>
+                            <a href="Events.html" class="text-reset">Classes/Events/Exhibits</a>
+                        </p>
+                        <p>
+                            <a href="support.html" class="text-reset">Support Us/Membership</a>
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i>Riverside Art Center 3 W. Auglaize St. P.O. Box 37
+                            Wapakoneta, OH 45895</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            riversideartcenter@gmail.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+        <!-- Copyright -->
+        <div class="text-center p-4" style="background-color: rgba(56, 54, 54, .5);">
+            © 2019 Riverside Art Center.
+            <p class="text-reset fw-bold">Proudly created by Webmaster Jessica Stitzel Websites with Wix.com</p>
+        </div>
+        <!-- Copyright -->
+    </footer>
+    <!-- Footer -->
+
+    <!-- AOS Script -->
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+</body>
+
+</html>
